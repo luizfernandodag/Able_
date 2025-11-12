@@ -8,20 +8,26 @@
     "start": "node dist/main.js"
   },
   "dependencies": {
-    "@nestjs/common": "^9.0.0",
-    "@nestjs/core": "^9.0.0",
-    "@nestjs/platform-express": "^9.0.0",
-    "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.0.0",
-    "typeorm": "^0.3.0",
-    "sqlite3": "^5.0.0",
-    "@nestjs/websockets": "^9.0.0",
-    "ws": "^8.0.0",
-    "dotenv": "^16.0.0"
+    "@nestjs/common": "^11.1.8",
+    "@nestjs/config": "^4.0.2",
+    "@nestjs/core": "^11.1.8",
+    "@nestjs/platform-express": "^11.1.8",
+    "@nestjs/platform-socket.io": "^11.1.8",
+    "@nestjs/platform-ws": "^11.1.8",
+    "@nestjs/typeorm": "^11.0.0",
+    "@nestjs/websockets": "^11.1.8",
+    "dotenv": "^16.0.0",
+    "pg": "^8.12.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1",
+    "sqlite3": "^5.1.7",
+    "typeorm": "^0.3.20",
+    "ws": "^8.18.1"
   },
   "devDependencies": {
+    "@types/node": "^20.14.2",
+    "@types/ws": "^8.18.1",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^4.9.0",
-    "@types/node": "^18.0.0"
+    "typescript": "^5.4.5"
   }
 }

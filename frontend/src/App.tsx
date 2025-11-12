@@ -9,7 +9,9 @@ export default function App() {
   const wsRef = useRef<WebSocket | null>(null);
 
   useEffect(() => {
-    const WS_URL = import.meta.env.VITE_WS_URL || 'ws://localhost:4000/ws';
+    // const WS_URL = import.meta.env.VITE_WS_URL || 'ws://localhost:4000/ws';
+    const WS_URL = import.meta.env.VITE_WS_URL || 'ws://localhost:3001/ws';
+
     const ws = new WebSocket(WS_URL);
     wsRef.current = ws;
 

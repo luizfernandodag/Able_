@@ -13,7 +13,7 @@ aggregates hourly averages and persists into SQLite. The frontend connects via W
    docker-compose up --build
    ```
 3. Frontend will be served at http://localhost:5173
-4. Backend HTTP (if any) at http://localhost:3001 and WS at ws://localhost:4000/ws
+4. Backend HTTP (if any) at http://localhost:3001 and WS at ws://localhost:301/ws
 
 ### Without Docker (WSL / local)
 Backend:

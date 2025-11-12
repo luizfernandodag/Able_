@@ -13,10 +13,11 @@
     "recharts": "^2.1.0"
   },
   "devDependencies": {
-    "vite": "^4.0.0",
-    "typescript": "^4.9.0",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "^0.0.0",
+    "typescript": "^4.9.0",
+    "vite": "^7.2.2",
+    "@vitejs/plugin-react": "^4.0.0" 
   }
 }
