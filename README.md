@@ -1,3 +1,4 @@
+# Able
 # Hourly Average Project (backend + frontend)
 
 This scaffold contains a minimal backend (Nest-like TypeScript service) and a frontend (Vite React).
@@ -37,4 +38,3 @@ npm run dev
 ## Notes
 - This scaffold uses TypeORM patterns. In production switch off synchronize and use migrations.
 - Replace FINNHUB_KEY in backend/.env before running backend.
-# Able_
